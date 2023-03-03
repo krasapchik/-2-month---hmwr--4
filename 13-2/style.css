@@ -3,115 +3,19 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.container{
-    display: flex;
-   flex-wrap: wrap;
+.bo{
+    border: 2px solid red;
+    width: 250px;
+margin-top: 10px;
+    padding: 10px;
+ 
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 20px;
+
 }
 #border1{
-    width: 21%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 10px;
-line-height: 20px;
-border-radius: 20px;
-margin: 10px auto;
-}
-#border2{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border3{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border4{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border5{
-    width: 21%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border6{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border7{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin:10px auto;
-border-radius: 20px;
-}
-#border8{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin:10px auto;
-border-radius: 20px;
-}
-#border9{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border10{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border11{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border12{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
